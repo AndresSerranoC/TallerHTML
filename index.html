@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>My Personal Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      background-color: #e1e5eb;
+    }
+
+    .navbar {
+      background-color: #d2d6dc;
+    }
+
+    .img-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .img-circle {
+      border: 2px solid #ffffff;
+      border-radius: 50%;
+      overflow: hidden;
+      display: inline-block;
+    }
+
+    .img-fluid {
+      max-width: 100%;
+      height: auto;
+    }
+
+    @media (max-width: 768px) {
+      .img-circle {
+        width: 80%;
+      }
+    }
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    p.software-developer {
+      font-size: 1.5rem;
+    }
+
+    /* Center text */
+    .centered-text {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Your Logo" class="logo-img"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active-home">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+
+    <div class="row">
+      <div class="col-md-4 offset-md-4">
+        <div class="img-container">
+          <div class="img-circle">
+            <img src="images/foto.png" alt="My Photo" class="img-fluid rounded">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 centered-text mt-4">
+        <h1>Andres Serrano</h1>
+        <p class="software-developer">Software Developer</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <section>
+          <h2>About Me</h2>
+          <p>
+            I am a passionate software developer with expertise in Python, Java, C, C++, and SQL. 
+            Currently, I specialize in using Django for building robust and scalable web applications in Python 
+            and Spring Boot for efficient web development in Java. You can find my work on GitHub at 
+            <a href="https://github.com/AndresSerranoC" target="_blank">https://github.com/AndresSerranoC</a>.
+          </p>
+        </section>
+
+        <section>
+          <h2>Technologies</h2>
+          <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>SQL (Structured Query Language)</li>
+            <li>Django (Python): A widely used high-level web framework for developing robust and scalable web applications.</li>
+            <li>Spring Boot (Java): A Spring Framework project that simplifies web application development in Java by providing an efficient structure and set of libraries.</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="text-center mt-5" style="background-color: #d2d6dc; color: #ffffff; padding: 10px 0;">
+    <p>&copy; 2023 Your Name</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

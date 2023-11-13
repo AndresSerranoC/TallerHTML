@@ -1,0 +1,86 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa; /* Set default Bootstrap light background color */
+  color: #495057;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #d2d6dc; /* Set the specific background color for the header */
+  color: #ffffff;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #d2d6dc !important; /* Set the specific background color for the navbar */
+}
+
+.profile-section {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.about-me-section {
+  margin: 50px 0;
+}
+
+.skills-list,
+.education-list,
+.experience-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-list li,
+.education-list li,
+.experience-list li {
+  margin-bottom: 10px;
+}
+
+.contact-section {
+  background-color: #d2d6dc; /* Set the specific background color for the contact section */
+  color: #ffffff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+footer {
+  background-color: #d2d6dc; /* Set the specific background color for the footer */
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .about-me-section,
+  .experience-list,
+  .education-list {
+    text-align: center;
+  }
+
+  .about-me-section,
+  .skills-list,
+  .education-list,
+  .experience-list {
+    margin: 30px 0;
+  }
+
+  .profile-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .navbar-brand img {
+    max-width: 75px; /* Adjust the max-width as needed */
+  }
+}
